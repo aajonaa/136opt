@@ -1,4 +1,4 @@
-%% The improved AO.
+% SGAO (Social-Growth Aquila Optimizer) is an enhanced Aquila algorithm that integrates social learning strategies for knowledge sharing and growth-pattern mechanisms for adaptive exploration, creating a balanced optimization approach.
 
 % Reference1: Poomin Duankhan, Khamron Sunat, Sirapat Chiewchanwattana, Patchara Nasa-ngium,
 % The Differentiated Creative Search (DCS): Leveraging differentiated knowledge-acquisition and creative realism to address complex optimization problems
@@ -7,8 +7,7 @@
 % Reference2: Mojtaba Ghasemi, Mohsen Zare, Pavel Trojovský, Ravipudi Venkata Rao, Eva Trojovská, Venkatachalam Kandasamy,
 % Optimization based on the smart behavior of plants with its engineering applications: Ivy algorithm
 % KBS journal
-
-function [best_pos,Convergence_curve]=AO(N,MaxFEs,lb,ub,dim,fobj)
+function [best_pos,Convergence_curve]=SGAO(N,MaxFEs,lb,ub,dim,fobj)
     %% 初始化参数
     FEs=0;
     it=1;

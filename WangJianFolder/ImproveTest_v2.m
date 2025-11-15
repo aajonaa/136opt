@@ -169,6 +169,9 @@ SearchAgents_no=30; MaxFEs = 30 * 5000 * 2;
 % algorithmName = {'RIME','RIME_plusGOReflect','RIME_plusGOLearnReflect','RIME_plusGOLearn'};% AvgFitnessRank:
 algorithmName = {'LRRIME','LRIME','RRIME','RIME'};% AvgFitnessRank:
 
+algorithmName = {'IVY','AO','DCS','YKAO'};% AvgFitnessRank:
+algorithmName = {'SGAO','YKAO','YKAO_re','IVYAO'};% AvgFitnessRank:
+
 % algorithmName = {'MDPLO', 'CMAES'} %#ok<NOPTS>
 % algorithmName = {'CGPLO_DR', 'PLO'} %#ok<NOPTS>
 % algorithmName = {'CDPLO', 'CPLO', 'DPLO', 'PLO'} %#ok<NOPTS>
@@ -220,7 +223,7 @@ for func = 1:funcNum
 
     %% This used to store the best fitness of every run
     cg_curves=zeros(foldNum,Fold,NumofRecord);
-    parfor fold=1:Fold
+    for fold=1:Fold
         display(['fold',num2str(fold)]);
         bestFitnessLocal = zeros(foldNum, 1);
         for algo=1:foldNum
