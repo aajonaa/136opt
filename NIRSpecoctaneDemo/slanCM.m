@@ -69,7 +69,19 @@ function [colorList,colorName] = slanCM(varargin)
 % 	   [Color,colorName] = slanCM(60,256);
 % 	   [Color,colorName] = slanCM(60,20); 
 % --------------------------------------------------------
-slanCM_Data = load('.\NIRSpecoctaneDemo\colorData\slanCM_Data.mat');
+% slanCM_Data = load('.\NIRSpecoctaneDemo\colorData\slanCM_Data.mat');
+% With this OS-agnostic version:
+% Construct the path properly
+script_dir = fileparts(mfilename('fullpath'));
+data_file = fullfile(script_dir, 'colorData', 'slanCM_Data.mat');
+
+% Check if file exists before loading
+if isfile(data_file)
+    slanCM_Data = load(data_file);
+else
+    error('File not found: %s\nPlease check the file path and case sensitivity.', data_file);
+end
+
 CList_Data = [slanCM_Data.slandarerCM(:).Colors];
 
 narginchk(0,2)
