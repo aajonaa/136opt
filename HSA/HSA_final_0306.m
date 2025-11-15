@@ -1,0 +1,204 @@
+function [Best_fit, Convergence_curve] = HSA_final_1(N,MaxFEs,lb,ub,dim,fobj)
+%% 初始化参数
+Best_P = zeros(1,dim);
+Best_fit = inf;
+AllFitness = inf*ones(N,1);
+Convergence_curve=[];
+theta = 0.5; % 连接阈值
+maxNormDist = sqrt(dim); % 归一化距离的最大可能值
+similarity = zeros(N, N); % 存储相似度
+connections = zeros(N, N); % 保存连接的状态和相似度
+NoUpdateCount = zeros(1,N); % 当前位置未更新的次数
+it=1;
+FEs=0;
+%% 步骤1：节点（种群）初始化
+P = initialization(N,dim,ub,lb);
+for i=1:N
+    FEs = FEs+1;
+    AllFitness(i) = fobj(P(i,:));
+    if AllFitness(i) < Best_fit
+        Best_P = P(i,:);
+        Best_fit = AllFitness(i);
+    end
+end
+%%
+while FEs <= MaxFEs
+    % Aaptive Adjustment Factor
+    AAF = 0.5 * 2^(1 - (FEs / MaxFEs));
+    %% a. 节点连接构建  --->  其实是，通过位置差异或者适应度差异，分成动态子种群
+    % 计算当前评估的比例
+    progressRatio = FEs / MaxFEs;
+    [SortFit,FitRank] = sort(AllFitness);
+    Best_id = FitRank(1);
+    Wrost_P = P(FitRank(end),:);
+    Wrost_fit = SortFit(end);
+    
+    for i = 1:N
+        for j = i+1:N
+            % 计算归一化距离并标准化到[0,1]
+            NormDist = sqrt(sum(((P(i,:) - P(j,:)) ./ (ub - lb)).^2)) / maxNormDist;
+            
+            % 计算归一化适应度差异
+            DeltaF = abs(AllFitness(i) - AllFitness(j)) / (Wrost_fit - Best_fit);
+            
+            % 计算相似度
+            similarity(i,j) = 1 - log(1 + ((1-progressRatio) * NormDist + progressRatio * DeltaF)*(exp(1)-1));  %Pi和Pj越不相似，similarity的值越小；越相似，值越大。但是在，算法前期，值应该是很小的
+            similarity(j,i) = similarity(i,j);
+
+            % 连接节点
+            if j == Best_id  % 所有节点，至少连接最佳节点
+                connections(i, j) = 1;
+                connections(j, i) = 1;
+            else
+                % 相似度概念，最初的想法，是用来标记有效连接（前期，将一些位置差异加大的Pi连接起来，以获取更广阔的探索空间；后期，将一些适应度值较好的解连接起来，有助于在后期精细调整解）
+                if similarity(i, j) >= theta  
+                    connections(i, j) = 1;
+                    connections(j, i) = 1;
+                end
+            end
+        end
+    end
+    %% b. 节点重塑（Node Reshaping）--->增加多样性
+    FWC = calculateFWC(P, AllFitness, similarity, lb, ub); % FWC的值越大，代表节点越核心
+    [~, FWCrank] = sort(FWC, 'descend');
+    % 定义剪枝指标Ci，Pi质量越好时，Ci越小
+    Ci = zeros(N, 1);
+    for i = 1:N
+        Ci(i) = 0.6 * FitRank(i)/N + 0.3 * NoUpdateCount(i)./(max(NoUpdateCount) + eps) + 0.1 * (FWCrank(i)/ N);
+    end
+    % 选择剪枝的节点
+    [~, pruneIndices] = maxk(Ci, 1 + floor(rand*N*0.2));  
+    % 进行节点剪枝与替换
+    for idx = pruneIndices'
+        P(idx, :) = lb + (ub - lb) .* rand(1, dim); 
+        AllFitness(idx) = fobj(P(idx, :)); 
+        FEs = FEs + 1;
+        NoUpdateCount(idx) = 0; %
+        if  AllFitness(idx) < Best_fit
+            Best_P = P(idx, :);
+            Best_fit = AllFitness(idx);
+        end
+        if AllFitness(idx) > Wrost_fit
+            Wrost_P = P(idx, :);
+            Wrost_fit =  AllFitness(idx);
+        end
+    end
+    %% c.节点集探索（Node-set exploration）
+    NewP = P;
+    for i = 1:N
+        if i < N
+            %% c.1 节点邻居竞争 --->局部增强
+            for j = i+1:N
+                if connections(i, j) > 0 % 检查是否存在超边连接解i和解j
+                    direction = sign(AllFitness(i)-AllFitness(j)).*ones(1,dim);
+                    % 基于节点权重和随机扰动生成新解
+                    NewP(i,:) = P(i,:) + (P(j,:) - P(i,:)) .* direction * AAF;
+                    
+                    % 保证新解符合上下界限制
+                    NewP(i,:) = min(max(NewP(i,:), lb), ub);
+                    
+                    % 评估新解的适应度
+                    f_pnew = fobj(NewP(i,:));
+                    FEs = FEs + 1;
+                    
+                    % 找出与当前超边相关的解中质量更差的解
+                    index = [i,j];
+                    [~, idx] = sort([AllFitness(i), AllFitness(j)]);
+                    better_idx = index(idx(1));
+                    worst_idx = index(idx(2));
+                    
+                    % 如果新点的适应度优于最差解的适应度，则进行替换，并更新超边权重
+                    if f_pnew < AllFitness(worst_idx)
+                        NoUpdateCount(worst_idx) = 0;
+                        P(worst_idx, :) = NewP(i,:);
+                        AllFitness(worst_idx) = f_pnew;
+                        if f_pnew < Best_fit
+                            Best_P = NewP(i,:);
+                            Best_fit = f_pnew;
+                        end
+                    else
+                        NoUpdateCount(worst_idx) = NoUpdateCount(worst_idx) + 1;
+                    end
+                end
+            end
+        end
+        %% c.2 节点协同搜索--->全局探索
+        LocalPosition = zeros(1, dim); 
+        for j = 1:N
+            if connections(i, j) > 0 % 考虑基于Pi超边上有连接的解
+                LocalPosition = LocalPosition + P(j,:);
+            end
+        end
+        LocalMean = LocalPosition./sum(connections(i, :));
+        % 通过调节当前节点位置、局部平均位置与全局最优解之间的相互作用，实现解空间的有效探索与利用
+        w1 = 1 - progressRatio^2;
+        R = Levy(1,dim).*(rand(1,dim)>0.5);
+
+        Node1 = P(i,:) + AAF * R .* (w1 * (Best_P - LocalMean) + (1-w1) * (LocalMean - P(i,:)));
+        Node2 = Best_P + AAF * R .* (w1 * (LocalMean - P(i,:)) + (1-w1) * (P(i,:) - LocalMean));
+        Node3 = LocalMean +AAF * R .* (w1 * (P(i,:) - Best_P) + (1-w1) * (Best_P - LocalMean));
+
+        % 保证新解符合上下界限制
+        Node1 = min(max(Node1, lb), ub);
+        Node2 = min(max(Node2, lb), ub);
+        Node3 = min(max(Node3, lb), ub);
+
+        % 计算适应度值
+        F_Node1 = fobj(Node1);
+        F_Node2 = fobj(Node2);
+        F_Node3 = fobj(Node3);
+        FEs=FEs+3;
+
+        Fitness_comb=[F_Node1,F_Node2,F_Node3,AllFitness(i)];
+        [Min_fitness_comb,m]=min(Fitness_comb);
+        AllFitness(i) = Min_fitness_comb;
+        if m==1   
+            P(i,:)=Node1;
+            NoUpdateCount(i) = 0;
+        elseif m==2
+            P(i,:)=Node2; 
+            NoUpdateCount(i) = 0;
+        elseif m==3
+            P(i,:)=Node3; 
+            NoUpdateCount(i) = 0;
+        else
+            P(i,:)=P(i,:); 
+            NoUpdateCount(i) = NoUpdateCount(i) + 1;
+        end
+
+        if AllFitness(i) < Best_fit
+           Best_P = P(i,:);
+           Best_fit = AllFitness(i);
+        end
+    end
+    %%
+    Convergence_curve(it)=Best_fit;
+    it=it+1;
+end
+end
+
+function FWC = calculateFWC(P, AllFitness, similarity, lb, ub)
+    N = size(P, 1); % 种群大小
+    FWC = zeros(N, 1); % 初始化每个节点的FWC值
+    epsilon = 1e-4; % 避免除以零
+    for i = 1:N
+        % 计算节点i与其所有邻居的加权距离之和
+        weightedDistSum = 0;
+        for j = 1:N
+            if similarity(i, j) > 0 % 仅考虑存在相似度的邻居
+                d_ij = norm(P(i,:) - P(j,:)) / norm(ub - lb); % 归一化欧式距离
+                weightedDistSum = weightedDistSum + similarity(i, j) / (d_ij + epsilon);
+            end
+        end
+        FWC(i) = 1 / (AllFitness(i) + epsilon) + weightedDistSum;
+    end
+end
+
+function o = Levy(n,d)
+beta=1.5;
+sigma=(gamma(1+beta).*sin(pi*beta/2)./(gamma((1+beta)/2).*beta.*2.^((beta-1)/2))).^(1/beta);
+u=randn(n,d)*sigma;
+v=randn(n,d);
+step=u./abs(v).^(1/beta);
+o=step;
+end

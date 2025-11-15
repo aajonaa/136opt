@@ -1,0 +1,134 @@
+function [best_pos,Convergence_curve]=PLO(N,MaxFEs,lb,ub,dim,fobj)
+
+%% Initialization
+FEs = 0;
+it = 1;
+AllFitness=inf*ones(N,1);
+newFitness=inf*ones(N,1);
+
+X=initialization(N,dim,ub,lb);
+V=ones(N,dim);
+newX=zeros(N,dim);
+
+for i=1:N
+    AllFitness(i)=fobj(X(i,:));
+    FEs=FEs+1;
+end
+
+[AllFitness, SortOrder]=sort(AllFitness);
+X=X(SortOrder,:);
+Bestpos=X(1,:);
+bestFitness=AllFitness(1);
+
+Convergence_curve=[];
+Convergence_curve(it)=bestFitness;
+
+%% Main loop
+while FEs <= MaxFEs
+    
+    X_sum=sum(X,1);
+    X_mean=X_sum/N;
+    w1=tansig((FEs/MaxFEs)^4);
+    w2=exp(-(2*FEs/MaxFEs)^3);
+
+    % Aurora oval walk
+    for i=1:N
+        
+        a=rand()/2+1;
+        V(i,:)=1*exp((1-a)/100*FEs);
+        LS=V(i,:);
+
+        GS=Levy(dim).*(X_mean-X(i,:)+(lb+rand(1,dim)*(ub-lb))/2);
+        newX(i, :) = X(i, :) + (w1 * LS + w2 * GS) .* rand(1, dim); %%1
+    end
+    
+    % Particle collision
+    E =sqrt(FEs/MaxFEs);
+    A=randperm(N);
+    % for i=1:N
+    %     for j=1:dim
+    %         if (rand<0.05) && (rand<E)
+    %             newX(i,j)=X(i,j)+sin(rand*pi)*(X(i,j)-X(A(i),j)); %%2
+    %         end
+    %     end
+    %     Flag4ub=newX(i,:)>ub;
+    %     Flag4lb=newX(i,:)<lb;
+    %     newX(i,:)=(newX(i,:).*(~(Flag4ub+Flag4lb)))+ub.*Flag4ub+lb.*Flag4lb;
+    %     newFitness(i)=fobj(newX(i,:));
+    %     FEs=FEs+1;
+    % 
+    %     if newFitness(i)<AllFitness(i)
+    %         X(i,:)=newX(i,:);
+    %         AllFitness(i)=newFitness(i);
+    %     end
+    % end
+
+    newX = APD()
+
+    [AllFitness, SortOrder]=sort(AllFitness);
+    X=X(SortOrder,:);
+    if AllFitness(1)<bestFitness
+        Bestpos=X(1,:);
+        bestFitness=AllFitness(1);
+    end
+
+    it = it + 1;
+    Convergence_curve(it)=bestFitness;
+    best_pos=Bestpos;
+end
+
+end
+
+function o=Levy(d)
+beta=1.5;
+sigma=(gamma(1+beta)*sin(pi*beta/2)/(gamma((1+beta)/2)*beta*2^((beta-1)/2)))^(1/beta);
+u=randn(1,d)*sigma;v=randn(1,d);
+step=u./abs(v).^(1/beta);
+o=step;
+end
+
+
+function updated_population = APD(population, best_solution, objective_func, lambda_vec, alpha, beta)
+% Adaptive PBI-based candidate update function for single-objective optimization in MATLAB.
+%
+% Parameters:
+% - population: Matrix of candidate solutions (size: num_solutions × num_variables)
+% - best_solution: Best solution found so far (row vector)
+% - objective_func: Function handle to evaluate objective values
+% - lambda_vec: Guiding direction vector (row vector)
+% - alpha: Weighting factor for convergence control
+% - beta: Weighting factor for diversity maintenance
+%
+% Returns:
+% - updated_population: Updated population of candidate solutions
+
+    % Get the number of candidates and the dimension of the search space
+    [num_solutions, num_variables] = size(population);
+    
+    % Normalize the lambda vector
+    lambda_vec = lambda_vec / norm(lambda_vec);
+    
+    % Initialize the updated population
+    updated_population = zeros(num_solutions, num_variables);
+    
+    % Compute the best solution's objective value
+    f_best = objective_func(best_solution);
+
+    for i = 1:num_solutions
+        candidate = population(i, :);
+        f_x = objective_func(candidate);
+
+        % Compute d1: Projection distance along lambda direction
+        d1 = dot((candidate - best_solution), lambda_vec);
+        
+        % Compute d2: Perpendicular distance to lambda_vec
+        d2 = norm(candidate - (best_solution + d1 * lambda_vec));
+
+        % Adaptive update rule using alpha and beta
+        update_direction = -alpha * d1 * lambda_vec + beta * d2 * randn(1, num_variables);
+        new_candidate = candidate + update_direction;
+
+        % Store the updated candidate
+        updated_population(i, :) = new_candidate;
+    end
+end

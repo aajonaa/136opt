@@ -1,0 +1,138 @@
+% Slime Mold Algorithm modified by Jona 2023-10-29.
+% Update: 1.Hybrid the HHO and SMA(HHO exploration strategy applied in SMA owing to
+% the better exploration performance based on the convergence_curve). 2.Use
+% opposition based learning to avoid stuck in local optimal. 3.Update the
+% best positition. 4.Cancel the elite opposition based learning. 5.Add the
+% HHO's phase to the correct position.
+function [bestFitness,best_pos,convergence_curve, Time]=bHHSMA_12(N, Max_iter, dim, A, trn, vald, ~, classifierFhd)
+tic
+disp('bHHSMA_12 is now tackling your problem');
+
+TFid = 8;
+
+% initialize position
+best_pos=zeros(1,dim);
+Destination_fitness=inf;%change this to -inf for maximization problems
+AllFitness = inf*ones(1, N);%record the fitness of all slime mold
+weight = ones(N,dim);%fitness weight of each slime mold
+%Initialize the set of random solutions
+ub = 1;
+lb = 0;
+X=initialization(N,dim,ub,lb) > 0.5;
+convergence_curve=[];
+% it=1;  %Number of iterations
+% lb=ones(1,dim).*lb; % lower boundary 
+% ub=ones(1,dim).*ub; % upper boundary
+z=0.03; % parameter
+
+% Main loop
+iter = 1;
+while  iter <= Max_iter
+    
+    %sort the fitness
+    for i=1:N
+        % Check if solutions go outside the search space and bring them back
+%         Flag4ub=X(i,:)>ub;
+%         Flag4lb=X(i,:)<lb;
+%         X(i,:)=(X(i,:).*(~(Flag4ub+Flag4lb)))+ub.*Flag4ub+lb.*Flag4lb;
+        AllFitness(i) = AccSz2(X(i,:), A, trn, vald, classifierFhd);
+%         iter = iter + 1;
+    end
+    
+    [SmellOrder,SmellIndex] = sort(AllFitness);  %Eq.(2.6)
+    worstFitness = SmellOrder(N);
+    bestFitness = SmellOrder(1);
+
+    S=bestFitness-worstFitness+eps;  % plus eps to avoid denominator zero
+
+    %calculate the fitness weight of each slime mold
+    for i=1:N
+        for j=1:dim
+            if i<=(N/2)  %Eq.(2.5)
+                weight(SmellIndex(i),j) = 1+rand()*log10((bestFitness-SmellOrder(i))/(S)+1);
+            else
+                weight(SmellIndex(i),j) = 1-rand()*log10((bestFitness-SmellOrder(i))/(S)+1);
+            end
+        end
+    end
+    
+    %update the best fitness value and best position
+    if bestFitness < Destination_fitness
+        best_pos=X(SmellIndex(1),:);
+        Destination_fitness = bestFitness;
+    end
+    
+    %%%%%%%%%%
+    E1=2*(1-(iter/Max_iter)); % factor to show the decreaing energy of rabbit
+    %%%%%%%%%%
+    
+    a = atanh(-(iter/Max_iter)+1);   %Eq.(2.4)
+    b = 1-iter/Max_iter;
+    % Update the Position of search agents
+    for i=1:N
+        if rand<z     %Eq.(2.7)
+            for j = 1:dim
+                X(i,j) = (ub-lb)*rand+lb;
+                X(i, j) = transferFun(X(i, j), X(i, j), TFid);
+            end
+        else
+            p =tanh(abs(AllFitness(i)-Destination_fitness));  %Eq.(2.2)
+            vb = unifrnd(-a,a,1,dim);  %Eq.(2.3)
+            vc = unifrnd(-b,b,1,dim);
+            for j=1:dim
+                r = rand();
+                AA = randi([1,N]);  % two positions randomly selected from population
+                B = randi([1,N]);
+                if r<p    %Eq.(2.1)
+                    X(i,j) = best_pos(j)+ vb(j)*(weight(i,j)*X(AA,j)-X(B,j));
+                    X(i, j) = transferFun(X(i, j), X(i, j), TFid);
+                else
+                    X(i,j) = vc(j)*X(i,j);
+                    X(i, j) = transferFun(X(i, j), X(i, j), TFid);
+                end
+            end
+            
+            
+            % We get a new individual after the  for loop which update all
+            % decision variables of the individual.
+            % Then we bring the phase 2 of HHO to consider if there is a
+            % between position.
+            %%%%%%%%%%
+            E0 = 2 * rand() - 1; %-1<E0<1
+            Escaping_Energy = E1 * (E0);  % escaping energy of rabbit
+            
+            if abs(Escaping_Energy)>=1 % The former iteration the lager probability to be true.
+                q=rand();
+                rand_Hawk_index = floor(N*rand()+1);
+                X_rand = X(rand_Hawk_index, :);
+                if q<0.5
+                    % perch based on other family members
+                    X1 = X_rand - rand() * abs(X_rand - 2 * rand() * X(i,:));
+                    if AccSz2(X1, A, trn, vald, classifierFhd) < AccSz2(X(i, :), A, trn, vald, classifierFhd)
+                        X(i, :) = X1;
+                    end
+                    for j = 1:dim
+                        X(i, j) = transferFun(X(i, j), X(i, j), TFid);
+                    end
+                elseif q>=0.5
+                    % perch on a random tall tree (random site inside group's home range)
+                    X1 = (best_pos - mean(X)) - rand() * ((ub - lb) * rand + lb);
+                    if AccSz2(X1, A, trn, vald, classifierFhd) < AccSz2(X(i, :), A, trn, vald, classifierFhd)
+                        X(i, :) = X1;
+                    end
+                    for j = 1:dim
+                        X(i, j) = transferFun(X(i, j), X(i, j), TFid);
+                    end
+                end
+            end
+            %%%%%%%%%%
+
+            
+        end
+    end
+    
+    convergence_curve(iter)=Destination_fitness;
+    iter=iter+1;
+end
+Time = toc;
+end

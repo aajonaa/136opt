@@ -1,0 +1,96 @@
+%% The original AO.
+
+function [best_pos,Convergence_curve]=AO(N,Max_FEs,lb,ub,dim,fobj)
+    % function [bestfitness,Convergence_curve]=AO0(N,MaxFEs,lb,ub,dim,fobj) % For myself
+    %初始化参数
+    FEs=0;
+    it=1;
+    Fitnorm=zeros(1,N);
+    Convergence_curve=[];
+    %% 种群的初始化
+    % 初始化一个个体
+    X=initialization(N,dim,ub,lb);
+    %计算初始种群的适应度值
+    for i=1:N
+        AllFitness(i)=fobj(X(i,:));
+        FEs=FEs+1;
+    end
+    % 为初始种群排序成新种群，找出最优个体，并记录
+    [minFitness,idx]=min(AllFitness);
+    %
+    newX=zeros(N,dim);
+    best_pos=X(idx,:);
+    bestFitness=minFitness;
+    %% 主循环
+    while FEs<=Max_FEs
+        
+        K= 1-((FEs)^(1/6)/(Max_FEs)^(1/6));
+        %E 是一个随迭代递减的数值，它可以成为控制后期局部开发的权重，调节全局搜索和局部开发
+        E =1*exp(-4*(FEs/Max_FEs));
+    
+        for i=1: N
+            
+            Fitnorm(i)= (AllFitness(i)-min(AllFitness))/(max(AllFitness)-min(AllFitness));
+            for j=1:dim
+                %攻击阶段  
+                if rand<K %(Comprehensive elimination phase
+                    if rand<0.5
+                        newX(i,j) = X(i,j)+E.*X(i,j)*(-1)^FEs; %% 1
+                    else
+                        newX(i,j) = X(i,j)+E.*best_pos(j)*(-1)^FEs; %% 2
+                    end
+                else
+                    newX(i,j)=X(i,j);
+                end
+                
+                if rand<Fitnorm(i) %(Local clearance phase
+                    A=randperm(N);
+                    beta=(rand/2)+0.1;
+                    newX(i,j)=X(A(3),j)+beta.*(X(A(1),j)-X(A(2),j)); %% 3
+                end
+            end
+            
+            newX(i,:)=Mutation(newX(i,:),X(i,:),best_pos,dim); %% 4 %(Post-consolidation phase
+            %% 边界收束 ：重新给药，并不是所有的二氧青蒿素都会寻找到疟原虫，一些会因为自身代谢排出人体，需要再次给药、
+            newX(i,:)=Transborder_reset(newX(i,:),ub,lb,dim,best_pos); 
+            % 计算适应度值
+            tFitness=fobj(newX(i,:));
+            FEs=FEs+1;
+            %初步更新适应度值
+            if tFitness<AllFitness(i)
+                X(i,:)= newX(i,:);
+                AllFitness(i)=tFitness;
+            end
+        end
+        [minFitness,idx]=min(AllFitness);
+        if minFitness<bestFitness
+            best_pos=X(idx,:);
+            bestFitness=minFitness;
+        end
+        % 保存每次迭代的最佳函数值
+        Convergence_curve(it)=bestFitness;
+        bestFitness = min(AllFitness);
+        it=it+1;
+    end
+end
+
+function z=Mutation(z,x,b,dim)
+    for j=1:dim
+        if rand<0.05
+            z(j)=x(j);
+        end
+        if rand<0.2
+            z(j)=b(j);
+        end
+    end
+end
+
+function z=Transborder_reset(z,ub,lb,dim,best)
+    for j=1:dim
+        if z(j)>ub || z(j)<lb
+            
+            z(j)=best(j);
+            
+        end
+    end
+end

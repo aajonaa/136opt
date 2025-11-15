@@ -1,0 +1,1998 @@
+Function = 1, Dimension size = 30
+1 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+2 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+3 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+4 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+5 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+6 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+7 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+8 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+9 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+10 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+11 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+12 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+13 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+14 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+15 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+16 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+17 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+18 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+19 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+20 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+21 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+22 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+23 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+24 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+25 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+
+mean error value = 0.00000000e+00, std = 0.00000000e+00
+
+-------------------------------------------------------
+Function = 2, Dimension size = 30
+1 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+2 th run, best-so-far error value = 1.00974196e-28
+bsf_error_val =
+     1.009741958682895e-28
+3 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+4 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+5 th run, best-so-far error value = 1.00974196e-28
+bsf_error_val =
+     1.009741958682895e-28
+6 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+7 th run, best-so-far error value = 2.52435490e-28
+bsf_error_val =
+     2.524354896707238e-28
+8 th run, best-so-far error value = 3.47098798e-29
+bsf_error_val =
+     3.470987982972452e-29
+9 th run, best-so-far error value = 1.38839519e-28
+bsf_error_val =
+     1.388395193188981e-28
+10 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+11 th run, best-so-far error value = 2.52435490e-29
+bsf_error_val =
+     2.524354896707238e-29
+12 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+13 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+14 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+15 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+16 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+17 th run, best-so-far error value = 1.00974196e-28
+bsf_error_val =
+     1.009741958682895e-28
+18 th run, best-so-far error value = 5.04870979e-29
+bsf_error_val =
+     5.048709793414476e-29
+19 th run, best-so-far error value = 1.00974196e-28
+bsf_error_val =
+     1.009741958682895e-28
+20 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+21 th run, best-so-far error value = 2.24036497e-28
+bsf_error_val =
+     2.240364970827674e-28
+22 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+23 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+24 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+25 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+
+mean error value = 4.51859527e-29, std = 7.28360874e-29
+
+-------------------------------------------------------
+Function = 3, Dimension size = 30
+1 th run, best-so-far error value = 1.99066482e+03
+bsf_error_val =
+     1.990664817605233e+03
+2 th run, best-so-far error value = 1.92076744e+03
+bsf_error_val =
+     1.920767441706777e+03
+3 th run, best-so-far error value = 2.31371829e+03
+bsf_error_val =
+     2.313718291362179e+03
+4 th run, best-so-far error value = 4.58144982e+03
+bsf_error_val =
+     4.581449824031090e+03
+5 th run, best-so-far error value = 1.25670848e+04
+bsf_error_val =
+     1.256708480490611e+04
+6 th run, best-so-far error value = 6.07001944e+03
+bsf_error_val =
+     6.070019439631371e+03
+7 th run, best-so-far error value = 3.70109160e+03
+bsf_error_val =
+     3.701091604820139e+03
+8 th run, best-so-far error value = 2.68943265e+03
+bsf_error_val =
+     2.689432653794618e+03
+9 th run, best-so-far error value = 7.82667832e+03
+bsf_error_val =
+     7.826678321159394e+03
+10 th run, best-so-far error value = 2.04098002e+04
+bsf_error_val =
+     2.040980017739720e+04
+11 th run, best-so-far error value = 1.31374606e+04
+bsf_error_val =
+     1.313746057575180e+04
+12 th run, best-so-far error value = 6.46283422e+03
+bsf_error_val =
+     6.462834220768355e+03
+13 th run, best-so-far error value = 5.65365516e+03
+bsf_error_val =
+     5.653655160075214e+03
+14 th run, best-so-far error value = 5.13227985e+03
+bsf_error_val =
+     5.132279851389841e+03
+15 th run, best-so-far error value = 6.67328559e+03
+bsf_error_val =
+     6.673285586973453e+03
+16 th run, best-so-far error value = 1.66439180e+04
+bsf_error_val =
+     1.664391795059551e+04
+17 th run, best-so-far error value = 2.20142917e+03
+bsf_error_val =
+     2.201429166010794e+03
+18 th run, best-so-far error value = 1.33796266e+04
+bsf_error_val =
+     1.337962657644558e+04
+19 th run, best-so-far error value = 3.00086360e+03
+bsf_error_val =
+     3.000863603943744e+03
+20 th run, best-so-far error value = 2.78504704e+03
+bsf_error_val =
+     2.785047037025055e+03
+21 th run, best-so-far error value = 9.93874624e+02
+bsf_error_val =
+     9.938746236160564e+02
+22 th run, best-so-far error value = 6.10642608e+03
+bsf_error_val =
+     6.106426078309907e+03
+23 th run, best-so-far error value = 6.55641425e+02
+bsf_error_val =
+     6.556414253014071e+02
+24 th run, best-so-far error value = 5.23567042e+03
+bsf_error_val =
+     5.235670418115687e+03
+25 th run, best-so-far error value = 2.98037409e+03
+bsf_error_val =
+     2.980374085824370e+03
+
+mean error value = 6.20452375e+03, std = 5.14359717e+03
+
+-------------------------------------------------------
+Function = 4, Dimension size = 30
+1 th run, best-so-far error value = 5.21844667e-16
+bsf_error_val =
+     5.218446670387178e-16
+2 th run, best-so-far error value = 8.92441335e-16
+bsf_error_val =
+     8.924413352530998e-16
+3 th run, best-so-far error value = 7.22876165e-16
+bsf_error_val =
+     7.228761650531078e-16
+4 th run, best-so-far error value = 1.95096539e-18
+bsf_error_val =
+     1.950965388503706e-18
+5 th run, best-so-far error value = 2.03705937e-18
+bsf_error_val =
+     2.037059373521904e-18
+6 th run, best-so-far error value = 3.27562301e-20
+bsf_error_val =
+     3.275623010569953e-20
+7 th run, best-so-far error value = 2.79134891e-17
+bsf_error_val =
+     2.791348910606495e-17
+8 th run, best-so-far error value = 4.66441847e-18
+bsf_error_val =
+     4.664418473566529e-18
+9 th run, best-so-far error value = 1.23067773e-16
+bsf_error_val =
+     1.230677734276059e-16
+10 th run, best-so-far error value = 2.61950971e-15
+bsf_error_val =
+     2.619509712244671e-15
+11 th run, best-so-far error value = 6.18649904e-16
+bsf_error_val =
+     6.186499035938903e-16
+12 th run, best-so-far error value = 1.75563697e-19
+bsf_error_val =
+     1.755636968056468e-19
+13 th run, best-so-far error value = 4.33196317e-20
+bsf_error_val =
+     4.331963170006286e-20
+14 th run, best-so-far error value = 4.39765497e-16
+bsf_error_val =
+     4.397654969165337e-16
+15 th run, best-so-far error value = 5.05865015e-20
+bsf_error_val =
+     5.058650146035131e-20
+16 th run, best-so-far error value = 2.92962726e-16
+bsf_error_val =
+     2.929627257827839e-16
+17 th run, best-so-far error value = 7.25232383e-19
+bsf_error_val =
+     7.252323834478368e-19
+18 th run, best-so-far error value = 2.27889194e-15
+bsf_error_val =
+     2.278891941909321e-15
+19 th run, best-so-far error value = 4.03621430e-15
+bsf_error_val =
+     4.036214301852299e-15
+20 th run, best-so-far error value = 3.32063113e-20
+bsf_error_val =
+     3.320631128913868e-20
+21 th run, best-so-far error value = 8.98944513e-18
+bsf_error_val =
+     8.989445125750689e-18
+22 th run, best-so-far error value = 5.03221166e-21
+bsf_error_val =
+     5.032211658658207e-21
+23 th run, best-so-far error value = 4.35271480e-19
+bsf_error_val =
+     4.352714802621962e-19
+24 th run, best-so-far error value = 1.89241886e-20
+bsf_error_val =
+     1.892418863078056e-20
+25 th run, best-so-far error value = 5.93995321e-21
+bsf_error_val =
+     5.939953212034531e-21
+
+mean error value = 5.03732209e-16, std = 1.00564780e-15
+
+-------------------------------------------------------
+Function = 5, Dimension size = 30
+1 th run, best-so-far error value = 5.45696821e-11
+bsf_error_val =
+     5.456968210637569e-11
+2 th run, best-so-far error value = 1.23691279e-10
+bsf_error_val =
+     1.236912794411182e-10
+3 th run, best-so-far error value = 1.81898940e-11
+bsf_error_val =
+     1.818989403545857e-11
+4 th run, best-so-far error value = 2.54658516e-11
+bsf_error_val =
+     2.546585164964199e-11
+5 th run, best-so-far error value = 1.09139364e-11
+bsf_error_val =
+     1.091393642127514e-11
+6 th run, best-so-far error value = 1.20053301e-10
+bsf_error_val =
+     1.200533006340265e-10
+7 th run, best-so-far error value = 3.05590220e-10
+bsf_error_val =
+     3.055902197957039e-10
+8 th run, best-so-far error value = 2.91038305e-11
+bsf_error_val =
+     2.910383045673370e-11
+9 th run, best-so-far error value = 1.81898940e-11
+bsf_error_val =
+     1.818989403545857e-11
+10 th run, best-so-far error value = 8.00355338e-11
+bsf_error_val =
+     8.003553375601769e-11
+11 th run, best-so-far error value = 3.27872840e-10
+bsf_error_val =
+     3.278728399891406e-10
+12 th run, best-so-far error value = 1.09139364e-11
+bsf_error_val =
+     1.091393642127514e-11
+13 th run, best-so-far error value = 1.45519152e-11
+bsf_error_val =
+     1.455191522836685e-11
+14 th run, best-so-far error value = 2.70642886e-09
+bsf_error_val =
+     2.706428858800791e-09
+15 th run, best-so-far error value = 2.11002771e-09
+bsf_error_val =
+     2.110027708113194e-09
+16 th run, best-so-far error value = 1.81898940e-11
+bsf_error_val =
+     1.818989403545857e-11
+17 th run, best-so-far error value = 1.45519152e-11
+bsf_error_val =
+     1.455191522836685e-11
+18 th run, best-so-far error value = 2.18278728e-11
+bsf_error_val =
+     2.182787284255028e-11
+19 th run, best-so-far error value = 8.00355338e-11
+bsf_error_val =
+     8.003553375601769e-11
+20 th run, best-so-far error value = 3.81987775e-11
+bsf_error_val =
+     3.819877747446299e-11
+21 th run, best-so-far error value = 2.27373675e-11
+bsf_error_val =
+     2.273736754432321e-11
+22 th run, best-so-far error value = 4.27462510e-11
+bsf_error_val =
+     4.274625098332763e-11
+23 th run, best-so-far error value = 2.94676283e-10
+bsf_error_val =
+     2.946762833744288e-10
+24 th run, best-so-far error value = 3.63797881e-11
+bsf_error_val =
+     3.637978807091713e-11
+25 th run, best-so-far error value = 1.35332812e-09
+bsf_error_val =
+     1.353328116238117e-09
+
+mean error value = 3.15130819e-10, std = 6.91247668e-10
+
+-------------------------------------------------------
+Function = 6, Dimension size = 30
+1 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+2 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+3 th run, best-so-far error value = 6.62422279e-26
+bsf_error_val =
+     6.624222793321880e-26
+4 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+5 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+6 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+7 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+8 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+9 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+10 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+11 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+12 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+13 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+14 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+15 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+16 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+17 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+18 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+19 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+20 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+21 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+22 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+23 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+24 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+25 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+
+mean error value = 2.64968912e-27, std = 1.32484456e-26
+
+-------------------------------------------------------
+Function = 7, Dimension size = 30
+1 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+2 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+3 th run, best-so-far error value = 7.39604033e-03
+bsf_error_val =
+   0.007396040334115
+4 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+5 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+6 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+7 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+8 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+9 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+10 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+11 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+12 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+13 th run, best-so-far error value = 9.86467206e-03
+bsf_error_val =
+   0.009864672061006
+14 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+15 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+16 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+17 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+18 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+19 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+20 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+21 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+22 th run, best-so-far error value = 1.47724077e-02
+bsf_error_val =
+   0.014772407722823
+23 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+24 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+25 th run, best-so-far error value = 1.23209889e-02
+bsf_error_val =
+   0.012320988875107
+
+mean error value = 1.77416436e-03, std = 4.29802515e-03
+
+-------------------------------------------------------
+Function = 8, Dimension size = 30
+1 th run, best-so-far error value = 2.07473404e+01
+bsf_error_val =
+  20.747340441399153
+2 th run, best-so-far error value = 2.08362550e+01
+bsf_error_val =
+  20.836255011992353
+3 th run, best-so-far error value = 2.08037851e+01
+bsf_error_val =
+  20.803785145317889
+4 th run, best-so-far error value = 2.00049330e+01
+bsf_error_val =
+  20.004932997656496
+5 th run, best-so-far error value = 2.07380473e+01
+bsf_error_val =
+  20.738047272032652
+6 th run, best-so-far error value = 2.07090892e+01
+bsf_error_val =
+  20.709089204694330
+7 th run, best-so-far error value = 2.00000035e+01
+bsf_error_val =
+  20.000003477849980
+8 th run, best-so-far error value = 2.06837260e+01
+bsf_error_val =
+  20.683726021508626
+9 th run, best-so-far error value = 2.07406860e+01
+bsf_error_val =
+  20.740686025275085
+10 th run, best-so-far error value = 2.07936023e+01
+bsf_error_val =
+  20.793602313104692
+11 th run, best-so-far error value = 2.07353377e+01
+bsf_error_val =
+  20.735337652415186
+12 th run, best-so-far error value = 2.00000002e+01
+bsf_error_val =
+  20.000000211562959
+13 th run, best-so-far error value = 2.07492777e+01
+bsf_error_val =
+  20.749277735069235
+14 th run, best-so-far error value = 2.03513594e+01
+bsf_error_val =
+  20.351359356005762
+15 th run, best-so-far error value = 2.07330014e+01
+bsf_error_val =
+  20.733001447719751
+16 th run, best-so-far error value = 2.07483040e+01
+bsf_error_val =
+  20.748303976967772
+17 th run, best-so-far error value = 2.03180207e+01
+bsf_error_val =
+  20.318020695302550
+18 th run, best-so-far error value = 2.00000000e+01
+bsf_error_val =
+  20.000000047600896
+19 th run, best-so-far error value = 2.07228152e+01
+bsf_error_val =
+  20.722815191021141
+20 th run, best-so-far error value = 2.00000000e+01
+bsf_error_val =
+  20.000000021348743
+21 th run, best-so-far error value = 2.00011106e+01
+bsf_error_val =
+  20.001110604591567
+22 th run, best-so-far error value = 2.07406918e+01
+bsf_error_val =
+  20.740691804550728
+23 th run, best-so-far error value = 2.06668515e+01
+bsf_error_val =
+  20.666851450562476
+24 th run, best-so-far error value = 2.07353278e+01
+bsf_error_val =
+  20.735327818289889
+25 th run, best-so-far error value = 2.00000003e+01
+bsf_error_val =
+  20.000000287076549
+
+mean error value = 2.05023826e+01, std = 3.39614626e-01
+
+-------------------------------------------------------
+Function = 9, Dimension size = 30
+1 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+2 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+3 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+4 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+5 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+6 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+7 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+8 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+9 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+10 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+11 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+12 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+13 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+14 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+15 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+16 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+17 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+18 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+19 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+20 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+21 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+22 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+23 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+24 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+25 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+
+mean error value = 0.00000000e+00, std = 0.00000000e+00
+
+-------------------------------------------------------
+Function = 10, Dimension size = 30
+1 th run, best-so-far error value = 2.07034050e+01
+bsf_error_val =
+  20.703405044615529
+2 th run, best-so-far error value = 1.46159798e+01
+bsf_error_val =
+  14.615979759955186
+3 th run, best-so-far error value = 1.67553713e+01
+bsf_error_val =
+  16.755371324852909
+4 th run, best-so-far error value = 1.55301811e+01
+bsf_error_val =
+  15.530181095637017
+5 th run, best-so-far error value = 2.45286818e+01
+bsf_error_val =
+  24.528681758734379
+6 th run, best-so-far error value = 1.53027808e+01
+bsf_error_val =
+  15.302780791083636
+7 th run, best-so-far error value = 1.34463972e+01
+bsf_error_val =
+  13.446397182166127
+8 th run, best-so-far error value = 1.34292754e+01
+bsf_error_val =
+  13.429275370294212
+9 th run, best-so-far error value = 1.26159099e+01
+bsf_error_val =
+  12.615909872233974
+10 th run, best-so-far error value = 1.36897709e+01
+bsf_error_val =
+  13.689770880855633
+11 th run, best-so-far error value = 9.57957122e+00
+bsf_error_val =
+   9.579571219186366
+12 th run, best-so-far error value = 1.25481725e+01
+bsf_error_val =
+  12.548172478967308
+13 th run, best-so-far error value = 1.92336567e+01
+bsf_error_val =
+  19.233656681155416
+14 th run, best-so-far error value = 1.91443292e+01
+bsf_error_val =
+  19.144329236247060
+15 th run, best-so-far error value = 1.90139518e+01
+bsf_error_val =
+  19.013951776282518
+16 th run, best-so-far error value = 1.54807886e+01
+bsf_error_val =
+  15.480788615362966
+17 th run, best-so-far error value = 1.79579796e+01
+bsf_error_val =
+  17.957979590162630
+18 th run, best-so-far error value = 1.29905513e+01
+bsf_error_val =
+  12.990551321478836
+19 th run, best-so-far error value = 1.33276736e+01
+bsf_error_val =
+  13.327673558854892
+20 th run, best-so-far error value = 1.93898502e+01
+bsf_error_val =
+  19.389850221819231
+21 th run, best-so-far error value = 1.42294619e+01
+bsf_error_val =
+  14.229461936100689
+22 th run, best-so-far error value = 1.61409832e+01
+bsf_error_val =
+  16.140983225555999
+23 th run, best-so-far error value = 1.84773957e+01
+bsf_error_val =
+  18.477395681342067
+24 th run, best-so-far error value = 2.04009592e+01
+bsf_error_val =
+  20.400959166133156
+25 th run, best-so-far error value = 1.65438276e+01
+bsf_error_val =
+  16.543827597664595
+
+mean error value = 1.62030762e+01, std = 3.35568050e+00
+
+-------------------------------------------------------
+Function = 11, Dimension size = 30
+1 th run, best-so-far error value = 2.89759367e+01
+bsf_error_val =
+  28.975936709505842
+2 th run, best-so-far error value = 2.48348580e+01
+bsf_error_val =
+  24.834857952719801
+3 th run, best-so-far error value = 2.71224425e+01
+bsf_error_val =
+  27.122442498273180
+4 th run, best-so-far error value = 2.70523464e+01
+bsf_error_val =
+  27.052346415661006
+5 th run, best-so-far error value = 2.94109473e+01
+bsf_error_val =
+  29.410947316495893
+6 th run, best-so-far error value = 2.80128006e+01
+bsf_error_val =
+  28.012800590279028
+7 th run, best-so-far error value = 2.72785642e+01
+bsf_error_val =
+  27.278564233652673
+8 th run, best-so-far error value = 2.56809473e+01
+bsf_error_val =
+  25.680947255846000
+9 th run, best-so-far error value = 2.92986691e+01
+bsf_error_val =
+  29.298669136834004
+10 th run, best-so-far error value = 2.52203487e+01
+bsf_error_val =
+  25.220348733213314
+11 th run, best-so-far error value = 2.73080907e+01
+bsf_error_val =
+  27.308090683728032
+12 th run, best-so-far error value = 2.79359025e+01
+bsf_error_val =
+  27.935902541996818
+13 th run, best-so-far error value = 2.80539668e+01
+bsf_error_val =
+  28.053966807871742
+14 th run, best-so-far error value = 2.78075129e+01
+bsf_error_val =
+  27.807512891611402
+15 th run, best-so-far error value = 2.91376037e+01
+bsf_error_val =
+  29.137603669540969
+16 th run, best-so-far error value = 2.49642317e+01
+bsf_error_val =
+  24.964231684761153
+17 th run, best-so-far error value = 2.54830008e+01
+bsf_error_val =
+  25.483000798751135
+18 th run, best-so-far error value = 2.68368819e+01
+bsf_error_val =
+  26.836881890466323
+19 th run, best-so-far error value = 2.30321751e+01
+bsf_error_val =
+  23.032175050302854
+20 th run, best-so-far error value = 2.75978877e+01
+bsf_error_val =
+  27.597887681456896
+21 th run, best-so-far error value = 2.70264751e+01
+bsf_error_val =
+  27.026475075581615
+22 th run, best-so-far error value = 2.75874227e+01
+bsf_error_val =
+  27.587422722698342
+23 th run, best-so-far error value = 2.90909178e+01
+bsf_error_val =
+  29.090917795874468
+24 th run, best-so-far error value = 2.66968963e+01
+bsf_error_val =
+  26.696896284835887
+25 th run, best-so-far error value = 2.72133835e+01
+bsf_error_val =
+  27.213383496876830
+
+mean error value = 2.71464084e+01, std = 1.57998611e+00
+
+-------------------------------------------------------
+Function = 12, Dimension size = 30
+1 th run, best-so-far error value = 9.78503269e+02
+bsf_error_val =
+     9.785032689338187e+02
+2 th run, best-so-far error value = 2.16821790e+03
+bsf_error_val =
+     2.168217901923871e+03
+3 th run, best-so-far error value = 5.12715587e+03
+bsf_error_val =
+     5.127155873241014e+03
+4 th run, best-so-far error value = 5.05650889e+03
+bsf_error_val =
+     5.056508890763786e+03
+5 th run, best-so-far error value = 4.15250154e+02
+bsf_error_val =
+     4.152501536481435e+02
+6 th run, best-so-far error value = 1.68031476e+03
+bsf_error_val =
+     1.680314762175456e+03
+7 th run, best-so-far error value = 5.89121467e+02
+bsf_error_val =
+     5.891214673350453e+02
+8 th run, best-so-far error value = 1.57128609e+03
+bsf_error_val =
+     1.571286085263958e+03
+9 th run, best-so-far error value = 1.18730428e+04
+bsf_error_val =
+     1.187304277289435e+04
+10 th run, best-so-far error value = 9.86280669e+03
+bsf_error_val =
+     9.862806685639067e+03
+11 th run, best-so-far error value = 3.10009262e+01
+bsf_error_val =
+  31.000926157635458
+12 th run, best-so-far error value = 1.21491011e+03
+bsf_error_val =
+     1.214910114097736e+03
+13 th run, best-so-far error value = 4.91441769e+03
+bsf_error_val =
+     4.914417690467506e+03
+14 th run, best-so-far error value = 2.49041078e+03
+bsf_error_val =
+     2.490410781348774e+03
+15 th run, best-so-far error value = 4.77039813e+02
+bsf_error_val =
+     4.770398134760668e+02
+16 th run, best-so-far error value = 7.20742773e+03
+bsf_error_val =
+     7.207427726261753e+03
+17 th run, best-so-far error value = 1.20171979e+01
+bsf_error_val =
+  12.017197850825527
+18 th run, best-so-far error value = 1.25469804e+02
+bsf_error_val =
+     1.254698041821858e+02
+19 th run, best-so-far error value = 1.67930035e+01
+bsf_error_val =
+  16.793003460633418
+20 th run, best-so-far error value = 2.18077841e+03
+bsf_error_val =
+     2.180778412940861e+03
+21 th run, best-so-far error value = 2.39964501e+03
+bsf_error_val =
+     2.399645014034277e+03
+22 th run, best-so-far error value = 5.05841200e+03
+bsf_error_val =
+     5.058411996225705e+03
+23 th run, best-so-far error value = 2.71323795e+03
+bsf_error_val =
+     2.713237951820554e+03
+24 th run, best-so-far error value = 3.83439478e+03
+bsf_error_val =
+     3.834394782088649e+03
+25 th run, best-so-far error value = 5.89121467e+02
+bsf_error_val =
+     5.891214673350493e+02
+
+mean error value = 2.90349138e+03, std = 3.11814837e+03
+
+-------------------------------------------------------
+Function = 13, Dimension size = 30
+1 th run, best-so-far error value = 1.31716541e+00
+bsf_error_val =
+   1.317165413705052
+2 th run, best-so-far error value = 1.10306378e+00
+bsf_error_val =
+   1.103063783216542
+3 th run, best-so-far error value = 1.10300422e+00
+bsf_error_val =
+   1.103004219387957
+4 th run, best-so-far error value = 1.16570254e+00
+bsf_error_val =
+   1.165702541243842
+5 th run, best-so-far error value = 1.17127199e+00
+bsf_error_val =
+   1.171271986355574
+6 th run, best-so-far error value = 1.04107214e+00
+bsf_error_val =
+   1.041072136340433
+7 th run, best-so-far error value = 1.21110608e+00
+bsf_error_val =
+   1.211106075727428
+8 th run, best-so-far error value = 1.27254181e+00
+bsf_error_val =
+   1.272541805426941
+9 th run, best-so-far error value = 1.20553300e+00
+bsf_error_val =
+   1.205533000283842
+10 th run, best-so-far error value = 1.08436629e+00
+bsf_error_val =
+   1.084366288724438
+11 th run, best-so-far error value = 1.03660831e+00
+bsf_error_val =
+   1.036608311710483
+12 th run, best-so-far error value = 1.10782748e+00
+bsf_error_val =
+   1.107827478879710
+13 th run, best-so-far error value = 1.27617459e+00
+bsf_error_val =
+   1.276174589554062
+14 th run, best-so-far error value = 1.15609939e+00
+bsf_error_val =
+   1.156099391318917
+15 th run, best-so-far error value = 1.25891923e+00
+bsf_error_val =
+   1.258919229550321
+16 th run, best-so-far error value = 1.01594315e+00
+bsf_error_val =
+   1.015943147498125
+17 th run, best-so-far error value = 1.33702232e+00
+bsf_error_val =
+   1.337022317887607
+18 th run, best-so-far error value = 1.22576360e+00
+bsf_error_val =
+   1.225763597243351
+19 th run, best-so-far error value = 1.14838937e+00
+bsf_error_val =
+   1.148389369259899
+20 th run, best-so-far error value = 1.18395290e+00
+bsf_error_val =
+   1.183952904593974
+21 th run, best-so-far error value = 1.09395067e+00
+bsf_error_val =
+   1.093950673108989
+22 th run, best-so-far error value = 1.05082259e+00
+bsf_error_val =
+   1.050822588442577
+23 th run, best-so-far error value = 1.16022953e+00
+bsf_error_val =
+   1.160229534324321
+24 th run, best-so-far error value = 1.04357292e+00
+bsf_error_val =
+   1.043572916266212
+25 th run, best-so-far error value = 1.04353438e+00
+bsf_error_val =
+   1.043534383884877
+
+mean error value = 1.15254551e+00, std = 9.33062382e-02
+
+-------------------------------------------------------
+Function = 14, Dimension size = 30
+1 th run, best-so-far error value = 1.19549716e+01
+bsf_error_val =
+  11.954971612147672
+2 th run, best-so-far error value = 1.30777396e+01
+bsf_error_val =
+  13.077739630816588
+3 th run, best-so-far error value = 1.25208383e+01
+bsf_error_val =
+  12.520838276921657
+4 th run, best-so-far error value = 1.18911934e+01
+bsf_error_val =
+  11.891193376859443
+5 th run, best-so-far error value = 1.26914233e+01
+bsf_error_val =
+  12.691423271249400
+6 th run, best-so-far error value = 1.25187601e+01
+bsf_error_val =
+  12.518760067879862
+7 th run, best-so-far error value = 1.23590710e+01
+bsf_error_val =
+  12.359070982845363
+8 th run, best-so-far error value = 1.27186524e+01
+bsf_error_val =
+  12.718652370038820
+9 th run, best-so-far error value = 1.24053711e+01
+bsf_error_val =
+  12.405371051156900
+10 th run, best-so-far error value = 1.23615754e+01
+bsf_error_val =
+  12.361575405278728
+11 th run, best-so-far error value = 1.23540107e+01
+bsf_error_val =
+  12.354010748940762
+12 th run, best-so-far error value = 1.27933665e+01
+bsf_error_val =
+  12.793366484908356
+13 th run, best-so-far error value = 1.27105880e+01
+bsf_error_val =
+  12.710587980137461
+14 th run, best-so-far error value = 1.26717996e+01
+bsf_error_val =
+  12.671799592329535
+15 th run, best-so-far error value = 1.26109869e+01
+bsf_error_val =
+  12.610986948176722
+16 th run, best-so-far error value = 1.28391723e+01
+bsf_error_val =
+  12.839172323446206
+17 th run, best-so-far error value = 1.24949357e+01
+bsf_error_val =
+  12.494935747064824
+18 th run, best-so-far error value = 1.24549554e+01
+bsf_error_val =
+  12.454955430978957
+19 th run, best-so-far error value = 1.28646995e+01
+bsf_error_val =
+  12.864699536416495
+20 th run, best-so-far error value = 1.13065521e+01
+bsf_error_val =
+  11.306552056017544
+21 th run, best-so-far error value = 1.24832351e+01
+bsf_error_val =
+  12.483235068586680
+22 th run, best-so-far error value = 1.27073530e+01
+bsf_error_val =
+  12.707353044657399
+23 th run, best-so-far error value = 1.21961972e+01
+bsf_error_val =
+  12.196197179693360
+24 th run, best-so-far error value = 1.21374784e+01
+bsf_error_val =
+  12.137478396969662
+25 th run, best-so-far error value = 1.24404701e+01
+bsf_error_val =
+  12.440470144194764
+
+mean error value = 1.24626159e+01, std = 3.67325460e-01
+
+-------------------------------------------------------
+Function = 15, Dimension size = 30
+1 th run, best-so-far error value = 3.00000131e+02
+bsf_error_val =
+     3.000001312426006e+02
+2 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+3 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+4 th run, best-so-far error value = 0.00000000e+00
+bsf_error_val =
+     0
+5 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+6 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+7 th run, best-so-far error value = 2.00007767e+02
+bsf_error_val =
+     2.000077665943963e+02
+8 th run, best-so-far error value = 3.00000000e+02
+bsf_error_val =
+   300
+9 th run, best-so-far error value = 3.00000000e+02
+bsf_error_val =
+   300
+10 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+11 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+12 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+13 th run, best-so-far error value = 3.00030722e+02
+bsf_error_val =
+     3.000307224776549e+02
+14 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+15 th run, best-so-far error value = 2.00000131e+02
+bsf_error_val =
+     2.000001312426006e+02
+16 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+17 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+18 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+19 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+20 th run, best-so-far error value = 3.00000235e+02
+bsf_error_val =
+     3.000002353483090e+02
+21 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+22 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+23 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+24 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+25 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+
+mean error value = 3.48001559e+02, std = 9.62623755e+01
+
+-------------------------------------------------------
+Function = 16, Dimension size = 30
+1 th run, best-so-far error value = 3.11920219e+01
+bsf_error_val =
+  31.192021883923989
+2 th run, best-so-far error value = 4.50729357e+01
+bsf_error_val =
+  45.072935701759796
+3 th run, best-so-far error value = 3.63309729e+01
+bsf_error_val =
+  36.330972904429366
+4 th run, best-so-far error value = 3.93886612e+01
+bsf_error_val =
+  39.388661224448981
+5 th run, best-so-far error value = 3.43925144e+01
+bsf_error_val =
+  34.392514405010438
+6 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+7 th run, best-so-far error value = 3.37764536e+01
+bsf_error_val =
+  33.776453640877705
+8 th run, best-so-far error value = 3.85698799e+01
+bsf_error_val =
+  38.569879943734385
+9 th run, best-so-far error value = 3.06307108e+01
+bsf_error_val =
+  30.630710800770700
+10 th run, best-so-far error value = 3.68533739e+01
+bsf_error_val =
+  36.853373930228400
+11 th run, best-so-far error value = 3.57290808e+01
+bsf_error_val =
+  35.729080815802426
+12 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+13 th run, best-so-far error value = 3.82770867e+01
+bsf_error_val =
+  38.277086650782785
+14 th run, best-so-far error value = 3.66874933e+01
+bsf_error_val =
+  36.687493323916598
+15 th run, best-so-far error value = 3.59703629e+01
+bsf_error_val =
+  35.970362912972419
+16 th run, best-so-far error value = 4.34125773e+01
+bsf_error_val =
+  43.412577297331438
+17 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+18 th run, best-so-far error value = 3.03364937e+01
+bsf_error_val =
+  30.336493733946583
+19 th run, best-so-far error value = 3.82551808e+01
+bsf_error_val =
+  38.255180800029663
+20 th run, best-so-far error value = 2.90509853e+01
+bsf_error_val =
+  29.050985315363029
+21 th run, best-so-far error value = 1.22084670e+02
+bsf_error_val =
+     1.220846696957115e+02
+22 th run, best-so-far error value = 4.00000000e+02
+bsf_error_val =
+   400
+23 th run, best-so-far error value = 3.79013730e+01
+bsf_error_val =
+  37.901372990881377
+24 th run, best-so-far error value = 3.58157498e+01
+bsf_error_val =
+  35.815749762726007
+25 th run, best-so-far error value = 3.96207510e+01
+bsf_error_val =
+  39.620751041508498
+
+mean error value = 9.79739732e+01, std = 1.35661779e+02
+
+-------------------------------------------------------
+Function = 17, Dimension size = 30
+1 th run, best-so-far error value = 4.01811433e+02
+bsf_error_val =
+     4.018114332498220e+02
+2 th run, best-so-far error value = 1.65568253e+02
+bsf_error_val =
+     1.655682531527548e+02
+3 th run, best-so-far error value = 1.46191114e+02
+bsf_error_val =
+     1.461911136605444e+02
+4 th run, best-so-far error value = 1.56711918e+02
+bsf_error_val =
+     1.567119183176596e+02
+5 th run, best-so-far error value = 1.67043816e+02
+bsf_error_val =
+     1.670438157285161e+02
+6 th run, best-so-far error value = 1.54057678e+02
+bsf_error_val =
+     1.540576775299575e+02
+7 th run, best-so-far error value = 6.80150198e+01
+bsf_error_val =
+  68.015019806321675
+8 th run, best-so-far error value = 5.52674533e+01
+bsf_error_val =
+  55.267453265978666
+9 th run, best-so-far error value = 6.20065771e+01
+bsf_error_val =
+  62.006577053439543
+10 th run, best-so-far error value = 4.01085499e+02
+bsf_error_val =
+     4.010854988812336e+02
+11 th run, best-so-far error value = 6.42000337e+01
+bsf_error_val =
+  64.200033744634950
+12 th run, best-so-far error value = 5.26371600e+01
+bsf_error_val =
+  52.637160043693740
+13 th run, best-so-far error value = 4.03636891e+02
+bsf_error_val =
+     4.036368905940187e+02
+14 th run, best-so-far error value = 7.08128385e+01
+bsf_error_val =
+  70.812838455639564
+15 th run, best-so-far error value = 5.06301878e+01
+bsf_error_val =
+  50.630187783931170
+16 th run, best-so-far error value = 6.28220562e+01
+bsf_error_val =
+  62.822056159102658
+17 th run, best-so-far error value = 5.04425748e+02
+bsf_error_val =
+     5.044257477368941e+02
+18 th run, best-so-far error value = 5.01029722e+02
+bsf_error_val =
+     5.010297222649778e+02
+19 th run, best-so-far error value = 6.09403406e+01
+bsf_error_val =
+  60.940340560044994
+20 th run, best-so-far error value = 6.63908768e+01
+bsf_error_val =
+  66.390876806764879
+21 th run, best-so-far error value = 6.70912260e+01
+bsf_error_val =
+  67.091226014361453
+22 th run, best-so-far error value = 6.02616030e+01
+bsf_error_val =
+  60.261602966735865
+23 th run, best-so-far error value = 6.34479454e+01
+bsf_error_val =
+  63.447945351727583
+24 th run, best-so-far error value = 4.01799885e+02
+bsf_error_val =
+     4.017998853697437e+02
+25 th run, best-so-far error value = 6.68408567e+01
+bsf_error_val =
+  66.840856666953812
+
+mean error value = 1.70989045e+02, std = 1.58232825e+02
+
+-------------------------------------------------------
+Function = 18, Dimension size = 30
+1 th run, best-so-far error value = 9.03811696e+02
+bsf_error_val =
+     9.038116964914481e+02
+2 th run, best-so-far error value = 9.03612593e+02
+bsf_error_val =
+     9.036125928907587e+02
+3 th run, best-so-far error value = 9.03509180e+02
+bsf_error_val =
+     9.035091803218015e+02
+4 th run, best-so-far error value = 9.03658271e+02
+bsf_error_val =
+     9.036582709700042e+02
+5 th run, best-so-far error value = 9.03397985e+02
+bsf_error_val =
+     9.033979851764036e+02
+6 th run, best-so-far error value = 9.03519935e+02
+bsf_error_val =
+     9.035199351540193e+02
+7 th run, best-so-far error value = 9.03649825e+02
+bsf_error_val =
+     9.036498253842419e+02
+8 th run, best-so-far error value = 9.04335738e+02
+bsf_error_val =
+     9.043357383283169e+02
+9 th run, best-so-far error value = 9.03604034e+02
+bsf_error_val =
+     9.036040340204123e+02
+10 th run, best-so-far error value = 9.03941226e+02
+bsf_error_val =
+     9.039412257522770e+02
+11 th run, best-so-far error value = 9.03710997e+02
+bsf_error_val =
+     9.037109965389009e+02
+12 th run, best-so-far error value = 9.03616803e+02
+bsf_error_val =
+     9.036168029587495e+02
+13 th run, best-so-far error value = 9.03657427e+02
+bsf_error_val =
+     9.036574267056740e+02
+14 th run, best-so-far error value = 9.04751378e+02
+bsf_error_val =
+     9.047513783044228e+02
+15 th run, best-so-far error value = 9.03716386e+02
+bsf_error_val =
+     9.037163858115148e+02
+16 th run, best-so-far error value = 9.03565903e+02
+bsf_error_val =
+     9.035659025887883e+02
+17 th run, best-so-far error value = 9.03987322e+02
+bsf_error_val =
+     9.039873220742081e+02
+18 th run, best-so-far error value = 9.03931710e+02
+bsf_error_val =
+     9.039317097125846e+02
+19 th run, best-so-far error value = 9.03648942e+02
+bsf_error_val =
+     9.036489419549563e+02
+20 th run, best-so-far error value = 9.03547842e+02
+bsf_error_val =
+     9.035478423602415e+02
+21 th run, best-so-far error value = 9.03418304e+02
+bsf_error_val =
+     9.034183041714093e+02
+22 th run, best-so-far error value = 9.03717438e+02
+bsf_error_val =
+     9.037174378455012e+02
+23 th run, best-so-far error value = 9.06280430e+02
+bsf_error_val =
+     9.062804298667120e+02
+24 th run, best-so-far error value = 9.03528776e+02
+bsf_error_val =
+     9.035287759247117e+02
+25 th run, best-so-far error value = 9.03600245e+02
+bsf_error_val =
+     9.036002451749919e+02
+
+mean error value = 9.03828815e+02, std = 5.88543340e-01
+
+-------------------------------------------------------
+Function = 19, Dimension size = 30
+1 th run, best-so-far error value = 9.03336067e+02
+bsf_error_val =
+     9.033360674296404e+02
+2 th run, best-so-far error value = 9.03574187e+02
+bsf_error_val =
+     9.035741869366168e+02
+3 th run, best-so-far error value = 9.03753068e+02
+bsf_error_val =
+     9.037530677868513e+02
+4 th run, best-so-far error value = 9.03504569e+02
+bsf_error_val =
+     9.035045694514959e+02
+5 th run, best-so-far error value = 9.03409891e+02
+bsf_error_val =
+     9.034098910431084e+02
+6 th run, best-so-far error value = 9.03522432e+02
+bsf_error_val =
+     9.035224318073042e+02
+7 th run, best-so-far error value = 9.03366657e+02
+bsf_error_val =
+     9.033666565500578e+02
+8 th run, best-so-far error value = 9.03718653e+02
+bsf_error_val =
+     9.037186531268875e+02
+9 th run, best-so-far error value = 9.04375103e+02
+bsf_error_val =
+     9.043751027557668e+02
+10 th run, best-so-far error value = 9.04788122e+02
+bsf_error_val =
+     9.047881221556611e+02
+11 th run, best-so-far error value = 9.03425281e+02
+bsf_error_val =
+     9.034252810117596e+02
+12 th run, best-so-far error value = 9.03720585e+02
+bsf_error_val =
+     9.037205845297551e+02
+13 th run, best-so-far error value = 9.03770630e+02
+bsf_error_val =
+     9.037706298597657e+02
+14 th run, best-so-far error value = 9.06275054e+02
+bsf_error_val =
+     9.062750537102359e+02
+15 th run, best-so-far error value = 9.03689405e+02
+bsf_error_val =
+     9.036894047351648e+02
+16 th run, best-so-far error value = 9.03324366e+02
+bsf_error_val =
+     9.033243655338937e+02
+17 th run, best-so-far error value = 9.03638045e+02
+bsf_error_val =
+     9.036380453717786e+02
+18 th run, best-so-far error value = 9.03585650e+02
+bsf_error_val =
+     9.035856502748621e+02
+19 th run, best-so-far error value = 9.03620588e+02
+bsf_error_val =
+     9.036205882945828e+02
+20 th run, best-so-far error value = 9.03776164e+02
+bsf_error_val =
+     9.037761638089797e+02
+21 th run, best-so-far error value = 9.03956351e+02
+bsf_error_val =
+     9.039563507889449e+02
+22 th run, best-so-far error value = 9.03884725e+02
+bsf_error_val =
+     9.038847254226919e+02
+23 th run, best-so-far error value = 9.03715407e+02
+bsf_error_val =
+     9.037154067455788e+02
+24 th run, best-so-far error value = 9.03914534e+02
+bsf_error_val =
+     9.039145343433303e+02
+25 th run, best-so-far error value = 9.03511126e+02
+bsf_error_val =
+     9.035111256221346e+02
+
+mean error value = 9.03806266e+02, std = 6.06825726e-01
+
+-------------------------------------------------------
+Function = 20, Dimension size = 30
+1 th run, best-so-far error value = 9.03856495e+02
+bsf_error_val =
+     9.038564953508560e+02
+2 th run, best-so-far error value = 9.03784698e+02
+bsf_error_val =
+     9.037846982543185e+02
+3 th run, best-so-far error value = 9.03506699e+02
+bsf_error_val =
+     9.035066991025924e+02
+4 th run, best-so-far error value = 9.03849101e+02
+bsf_error_val =
+     9.038491009135787e+02
+5 th run, best-so-far error value = 9.03936350e+02
+bsf_error_val =
+     9.039363501722374e+02
+6 th run, best-so-far error value = 9.03862238e+02
+bsf_error_val =
+     9.038622381808368e+02
+7 th run, best-so-far error value = 9.04183587e+02
+bsf_error_val =
+     9.041835874261128e+02
+8 th run, best-so-far error value = 9.03579490e+02
+bsf_error_val =
+     9.035794895156436e+02
+9 th run, best-so-far error value = 9.03942468e+02
+bsf_error_val =
+     9.039424675008711e+02
+10 th run, best-so-far error value = 9.04182402e+02
+bsf_error_val =
+     9.041824017869910e+02
+11 th run, best-so-far error value = 9.03470775e+02
+bsf_error_val =
+     9.034707745340276e+02
+12 th run, best-so-far error value = 9.03672719e+02
+bsf_error_val =
+     9.036727186008980e+02
+13 th run, best-so-far error value = 9.04092581e+02
+bsf_error_val =
+     9.040925809170506e+02
+14 th run, best-so-far error value = 9.06931516e+02
+bsf_error_val =
+     9.069315161151152e+02
+15 th run, best-so-far error value = 9.03590525e+02
+bsf_error_val =
+     9.035905248894715e+02
+16 th run, best-so-far error value = 9.03732494e+02
+bsf_error_val =
+     9.037324939945366e+02
+17 th run, best-so-far error value = 9.03814101e+02
+bsf_error_val =
+     9.038141014048374e+02
+18 th run, best-so-far error value = 9.03625785e+02
+bsf_error_val =
+     9.036257851575375e+02
+19 th run, best-so-far error value = 9.03622398e+02
+bsf_error_val =
+     9.036223984127086e+02
+20 th run, best-so-far error value = 9.03687658e+02
+bsf_error_val =
+     9.036876580974673e+02
+21 th run, best-so-far error value = 9.03834501e+02
+bsf_error_val =
+     9.038345010528992e+02
+22 th run, best-so-far error value = 9.03592564e+02
+bsf_error_val =
+     9.035925643970992e+02
+23 th run, best-so-far error value = 9.03417472e+02
+bsf_error_val =
+     9.034174715363154e+02
+24 th run, best-so-far error value = 9.03597706e+02
+bsf_error_val =
+     9.035977055491394e+02
+25 th run, best-so-far error value = 9.04669858e+02
+bsf_error_val =
+     9.046698575752168e+02
+
+mean error value = 9.03921447e+02, std = 6.84219239e-01
+
+-------------------------------------------------------
+Function = 21, Dimension size = 30
+1 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+2 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+3 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+4 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+5 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+6 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+7 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988598e+02
+8 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+9 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988598e+02
+10 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988598e+02
+11 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988602e+02
+12 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+13 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+14 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+15 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988598e+02
+16 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+17 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+18 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988602e+02
+19 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988598e+02
+20 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+21 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988602e+02
+22 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988598e+02
+23 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+24 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988599e+02
+25 th run, best-so-far error value = 5.00000047e+02
+bsf_error_val =
+     5.000000467988602e+02
+
+mean error value = 5.00000047e+02, std = 1.68544971e-13
+
+-------------------------------------------------------
+Function = 22, Dimension size = 30
+1 th run, best-so-far error value = 8.58461602e+02
+bsf_error_val =
+     8.584616021515699e+02
+2 th run, best-so-far error value = 8.35773999e+02
+bsf_error_val =
+     8.357739992533778e+02
+3 th run, best-so-far error value = 8.67511246e+02
+bsf_error_val =
+     8.675112459041707e+02
+4 th run, best-so-far error value = 8.42105456e+02
+bsf_error_val =
+     8.421054555870040e+02
+5 th run, best-so-far error value = 8.63874876e+02
+bsf_error_val =
+     8.638748761480020e+02
+6 th run, best-so-far error value = 8.45915569e+02
+bsf_error_val =
+     8.459155687659140e+02
+7 th run, best-so-far error value = 8.68162665e+02
+bsf_error_val =
+     8.681626649591157e+02
+8 th run, best-so-far error value = 8.67524367e+02
+bsf_error_val =
+     8.675243669992278e+02
+9 th run, best-so-far error value = 8.72441614e+02
+bsf_error_val =
+     8.724416142039631e+02
+10 th run, best-so-far error value = 8.70250252e+02
+bsf_error_val =
+     8.702502523903431e+02
+11 th run, best-so-far error value = 8.79053435e+02
+bsf_error_val =
+     8.790534345532033e+02
+12 th run, best-so-far error value = 8.31908599e+02
+bsf_error_val =
+     8.319085987420727e+02
+13 th run, best-so-far error value = 8.80962911e+02
+bsf_error_val =
+     8.809629107571424e+02
+14 th run, best-so-far error value = 8.83659773e+02
+bsf_error_val =
+     8.836597727270865e+02
+15 th run, best-so-far error value = 8.82413244e+02
+bsf_error_val =
+     8.824132441469238e+02
+16 th run, best-so-far error value = 8.36637990e+02
+bsf_error_val =
+     8.366379901069338e+02
+17 th run, best-so-far error value = 8.49341843e+02
+bsf_error_val =
+     8.493418432001365e+02
+18 th run, best-so-far error value = 8.76574903e+02
+bsf_error_val =
+     8.765749027188081e+02
+19 th run, best-so-far error value = 8.25971822e+02
+bsf_error_val =
+     8.259718216685467e+02
+20 th run, best-so-far error value = 8.74556541e+02
+bsf_error_val =
+     8.745565411238003e+02
+21 th run, best-so-far error value = 8.78822052e+02
+bsf_error_val =
+     8.788220519143912e+02
+22 th run, best-so-far error value = 8.78048110e+02
+bsf_error_val =
+     8.780481100745009e+02
+23 th run, best-so-far error value = 8.84223405e+02
+bsf_error_val =
+     8.842234047487646e+02
+24 th run, best-so-far error value = 8.82146415e+02
+bsf_error_val =
+     8.821464154252453e+02
+25 th run, best-so-far error value = 8.31871654e+02
+bsf_error_val =
+     8.318716537124210e+02
+
+mean error value = 8.62728574e+02, std = 1.92379486e+01
+
+-------------------------------------------------------
+Function = 23, Dimension size = 30
+1 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+2 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+3 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+4 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+5 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+6 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+7 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+8 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358667e+02
+9 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358672e+02
+10 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+11 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+12 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358667e+02
+13 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+14 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358679e+02
+15 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358672e+02
+16 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358672e+02
+17 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+18 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358667e+02
+19 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+20 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+21 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358672e+02
+22 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358667e+02
+23 th run, best-so-far error value = 5.34164578e+02
+bsf_error_val =
+     5.341645776578330e+02
+24 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358667e+02
+25 th run, best-so-far error value = 5.34164078e+02
+bsf_error_val =
+     5.341640777358673e+02
+
+mean error value = 5.34164098e+02, std = 9.99843932e-05
+
+-------------------------------------------------------
+Function = 24, Dimension size = 30
+1 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+2 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+3 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+4 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000032e+02
+5 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+6 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+7 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000032e+02
+8 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+9 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+10 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+11 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+12 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+13 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+14 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+15 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+16 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+17 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+18 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+19 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+20 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+21 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+22 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+23 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+24 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+25 th run, best-so-far error value = 2.00000000e+02
+bsf_error_val =
+     2.000000000000001e+02
+
+mean error value = 2.00000000e+02, std = 8.58042260e-13
+
+-------------------------------------------------------
+Function = 25, Dimension size = 30
+1 th run, best-so-far error value = 2.10656385e+02
+bsf_error_val =
+     2.106563845659694e+02
+2 th run, best-so-far error value = 2.10669686e+02
+bsf_error_val =
+     2.106696856567224e+02
+3 th run, best-so-far error value = 2.09795086e+02
+bsf_error_val =
+     2.097950863766706e+02
+4 th run, best-so-far error value = 2.10017133e+02
+bsf_error_val =
+     2.100171327845284e+02
+5 th run, best-so-far error value = 2.10441137e+02
+bsf_error_val =
+     2.104411372882819e+02
+6 th run, best-so-far error value = 2.10235590e+02
+bsf_error_val =
+     2.102355895073673e+02
+7 th run, best-so-far error value = 2.10206075e+02
+bsf_error_val =
+     2.102060745301265e+02
+8 th run, best-so-far error value = 2.09684552e+02
+bsf_error_val =
+     2.096845521710932e+02
+9 th run, best-so-far error value = 2.10803620e+02
+bsf_error_val =
+     2.108036201646311e+02
+10 th run, best-so-far error value = 2.10554270e+02
+bsf_error_val =
+     2.105542696365925e+02
+11 th run, best-so-far error value = 2.09519857e+02
+bsf_error_val =
+     2.095198569238640e+02
+12 th run, best-so-far error value = 2.10776773e+02
+bsf_error_val =
+     2.107767731142335e+02
+13 th run, best-so-far error value = 2.11829571e+02
+bsf_error_val =
+     2.118295711626223e+02
+14 th run, best-so-far error value = 2.10438968e+02
+bsf_error_val =
+     2.104389679818612e+02
+15 th run, best-so-far error value = 2.09898464e+02
+bsf_error_val =
+     2.098984640981132e+02
+16 th run, best-so-far error value = 2.09403820e+02
+bsf_error_val =
+     2.094038197349110e+02
+17 th run, best-so-far error value = 2.10810990e+02
+bsf_error_val =
+     2.108109897088569e+02
+18 th run, best-so-far error value = 2.10152494e+02
+bsf_error_val =
+     2.101524942469443e+02
+19 th run, best-so-far error value = 2.09993649e+02
+bsf_error_val =
+     2.099936488827526e+02
+20 th run, best-so-far error value = 2.10191652e+02
+bsf_error_val =
+     2.101916519796265e+02
+21 th run, best-so-far error value = 2.10660648e+02
+bsf_error_val =
+     2.106606484757527e+02
+22 th run, best-so-far error value = 2.11819093e+02
+bsf_error_val =
+     2.118190933875434e+02
+23 th run, best-so-far error value = 2.10843932e+02
+bsf_error_val =
+     2.108439318756460e+02
+24 th run, best-so-far error value = 2.09932091e+02
+bsf_error_val =
+     2.099320909999978e+02
+25 th run, best-so-far error value = 2.10357814e+02
+bsf_error_val =
+     2.103578141153170e+02
+
+mean error value = 2.10387734e+02, std = 5.97079307e-01

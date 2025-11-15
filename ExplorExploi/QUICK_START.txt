@@ -1,0 +1,63 @@
+======================================================================
+ExplorExploi - Quick Start Guide
+======================================================================
+
+FOLDER CONTENTS:
+----------------
+✓ Main script: exp_CCMWOA1.m
+✓ Algorithms: LRRIME and RIME
+✓ All utility functions
+✓ CEC benchmark functions (2005, 2013, 2014, 2017, 2019)
+✓ Required data files
+✓ Output directory
+
+HOW TO USE:
+-----------
+1. Open MATLAB
+2. Navigate to the ExplorExploi folder
+3. Run: exp_CCMWOA1
+
+VERIFY SETUP (OPTIONAL):
+------------------------
+Before running the main experiment, you can verify all dependencies:
+   >> test_dependencies
+
+This will check that all required files are present and working.
+
+WHAT THE MAIN SCRIPT DOES:
+--------------------------
+- Compares LRRIME vs RIME algorithms
+- Tests on CEC2017 benchmark functions (F107-F136)
+- Runs 30 independent trials per function
+- Generates convergence curves, balance plots, and diversity plots
+- Performs statistical analysis
+- Saves all results to exp_result folder
+
+OUTPUT FILES:
+-------------
+Results are saved in: exp_result/LRRIME-[timestamp]/
+- Excel file with statistics and rankings
+- Convergence curve figures (.fig and .tif)
+- Balance analysis figures (.fig and .tif)
+- Diversity analysis figures (.fig and .tif)
+
+CUSTOMIZATION:
+--------------
+To modify the experiment, edit exp_CCMWOA1.m:
+- Line 9:  SearchAgents_no (population size)
+- Line 12: dim (problem dimension)
+- Line 14: algorithmName (algorithms to compare)
+- Line 16: Flod (number of independent runs)
+- Line 63: Function_name_all (which functions to test)
+
+NOTES:
+------
+- This folder is completely self-contained
+- Can be moved or copied to any location
+- Works on Windows with MATLAB (MEX files compiled for Windows)
+- Uses parallel processing for faster execution
+
+======================================================================
+For more details, see README.md
+======================================================================
+
