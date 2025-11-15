@@ -169,8 +169,14 @@ SearchAgents_no=30; MaxFEs = 30 * 5000 * 2;
 % algorithmName = {'RIME','RIME_plusGOReflect','RIME_plusGOLearnReflect','RIME_plusGOLearn'};% AvgFitnessRank:
 algorithmName = {'LRRIME','LRIME','RRIME','RIME'};% AvgFitnessRank:
 
+<<<<<<< HEAD
 % algorithmName = {'IVY','AO','DCS','YKAO'};% AvgFitnessRank:
 % algorithmName = {'SGAO','YKAO','YKAO_re','IVYAO'};% AvgFitnessRank:
+=======
+algorithmName = {'IVY','AO','DCS','YKAO'};% AvgFitnessRank:
+algorithmName = {'SGAO','YKAO','YKAO_re','IVYAO'};% AvgFitnessRank:
+algorithmName = {'SGAO','SAO','GAO','AO'};% AvgFitnessRank:
+>>>>>>> 351573283161310a9672060eda31920497412cc4
 
 % algorithmName = {'MDPLO', 'CMAES'} %#ok<NOPTS>
 % algorithmName = {'CGPLO_DR', 'PLO'} %#ok<NOPTS>
